@@ -1,0 +1,27 @@
+nav li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav img {
+    width: 35px;
+    height: auto;
+    float: right;
+}
+
+nav {
+    float: center;
+    border-bottom: 5px coral solid;
+}
+
+.entry_screen {
+    background-image: url(Images/Entry\ screen\ background\ image.jpeg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    color: white;
+}
