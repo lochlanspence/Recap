@@ -39,3 +39,11 @@ nav {
 .entry_screen h3 {
     padding-left: 50px;
 }
+
+.Video h2 {
+    text-align: center;
+}
+
+.Video iframe {
+    align-self: center;
+}
