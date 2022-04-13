@@ -19,10 +19,23 @@ nav {
 }
 
 .entry_screen {
-    background-image: url(Images/Entry\ screen\ background\ image.jpeg);
+    background-image: url(Images/warhammer-40k-dawn-of-war-3-4k-4k.jpeg);
     width: 100%;
-    height: auto;
+    height: 550px;
+    display: block;
+    margin-top: 10px;
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     opacity: 70%;
+    border: 3px black solid;
+}
+
+.entry_screen h1 {
+    padding-top: 200px;
+    padding-left: 30px;
+}
+
+.entry_screen h3 {
+    padding-left: 50px;
 }
