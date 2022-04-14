@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav li{
     display: inline-block;
 }
@@ -20,11 +25,6 @@ nav ul {
 nav img {
     width: 35px;
     height: auto;
-}
-
-nav:last-child {
-    margin: 0px;
-    padding: 0px;
 }
 
 nav {
