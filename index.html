@@ -8,28 +8,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Jay's Minifigures</title>
+    <title>Jay's Minifigures - Home</title>
+    <script src="https://kit.fontawesome.com/19fef2f852.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#Aboutus">About us</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#Contactus">Contact us</a></li>
-                <li><img src="Images/Checkout.jpeg" alt="Purchase your Minifigures" id = "shopping_cart"></li>
+                <li><a href = "checkout.html"><i class="fa-solid fa-bag-shopping" id = "shopping_cart"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class = "entry_screen">
             <h1>Jay's Minifigures</h1>
-            <h3>Inquire Now</h3>
+            <h3 id = "inquire">Inquire Now</h3>
         </div>
         <div class = "Video">
             <h2 class = "Video">How we make our minifigures</h2>
             <iframe class = "Video" width="560" height="315" src="https://www.youtube.com/embed/LLJwh4ClZ6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p><a href="https://warhammer40000.com/rules/">The official website for Warhammer40000</a></p>
         </div>
+        <section>
+            <div id = "wrapper">
+                <div class = "races">
+                    <img src="Images/Orc.webp" alt="Orc" class = "example_figures">
+                    <h3 class = "example_headings">Orcs</h3>
+                    <p class = "example text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut facilis sit nisi alias, aperiam earum soluta architecto consequatur neque tenetur quidem? Minima nostrum id consequatur hic, at inventore quae!</p>
+                </div>
+                <div class = "races">
+                    <img src="Images/elf.jpeg" alt="elf" class = "example_figures">
+                    <h3 class = "example_headings">Elves</h3>
+                    <p class = "example text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, sapiente reprehenderit? Animi reprehenderit asperiores enim odio vel. Quos excepturi qui, modi eum harum fuga tempora repellendus, obcaecati fugit optio sed.</p>
+                </div>
+                <div class = "races">
+                    <img src="Images/Dwarf.jpeg" alt="dwaf" class  = "example_figures">
+                    <h3 class = "example_headings">Dwarves</h3>
+                    <p class = "example text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eius quam esse consequatur iusto odit molestias tenetur officia, consectetur natus vel accusantium. Temporibus error mollitia vero vitae ducimus porro necessitatibus.</p>
+                    <button class = "example_button" onclick = "buy()">Buy Now</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <script>
+        function buy(){
+            window.open()
+        }
+    </script>
 </body>
 </html>
